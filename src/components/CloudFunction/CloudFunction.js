@@ -12,8 +12,8 @@ const CloudFunction = () => {
   // State to store jokes retrieved from the API
   const [jokes, setJokes] = useState([]);
 
-  // Variable which website URL address or link of an API
-  const apiLink = "https://icanhazdadjoke.com/"
+  // Variable which website URL address or link of Khiem's personal cloud function
+  const apiLink = "https://us-east1-nguyen-cis680-cloudappdev.cloudfunctions.net/cloud-function-assignment-18-658"
 
   // Functions to fetch data from the api via HTTP get request
   // We use async function declaration and the await keyword to enable and ensure the fetchData method will run asynchronously 
